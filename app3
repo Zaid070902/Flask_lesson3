@@ -10,7 +10,7 @@ def home(name):
 
 @app.route('/looping/<int:number>')
 def looping(number):
-    return render_template('Loopy.html', number=number)
+    return render_template('Loopy.html', y=number)
 
 
 if __name__ == '__main__':
